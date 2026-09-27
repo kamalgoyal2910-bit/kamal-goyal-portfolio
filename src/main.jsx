@@ -326,10 +326,10 @@ function App() {
               <div className="edu-timeline-line" />
               {education.map((row, i) => (
                 <article className="edu-card-premium" key={row[0]} style={{ '--edu-delay': `${i * 120}ms` }}>
-                  <div className="edu-number">{String(i + 1).padStart(0, '0')}</div>
+                  <div className="edu-number">{String(i + 1).padStart(2, '0')}</div>
                   <div className="edu-card-inner">
                     <div className="edu-card-top">
-                      
+                      <span className="edu-period">{row[2]}</span>
                       <span className="edu-status">Completed</span>
                     </div>
                     <div className="edu-main">
