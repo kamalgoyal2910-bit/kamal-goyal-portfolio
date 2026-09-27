@@ -330,7 +330,7 @@ function App() {
                   <div className="edu-card-inner">
                     <div className="edu-card-top">
                       <span className="edu-period">{row[2]}</span>
-                      <span className="edu-status">{i === 0 ? 'Completed' : 'Completed'}</span>
+                      <span className="edu-status">{i === 0 ? 'Latest' : 'Completed'}</span>
                     </div>
                     <div className="edu-main">
                       <div className="edu-icon-premium"><GraduationCap size={22} /></div>
