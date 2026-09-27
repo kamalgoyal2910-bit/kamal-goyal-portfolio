@@ -329,7 +329,7 @@ function App() {
                   <div className="edu-number">{String(i + 1).padStart(1, '0')}</div>
                   <div className="edu-card-inner">
                     <div className="edu-card-top">
-                      <span className="edu-period">{row[1]}</span>
+                      
                       <span className="edu-status">Completed</span>
                     </div>
                     <div className="edu-main">
